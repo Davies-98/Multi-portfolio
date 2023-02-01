@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+}
+
+.header {
+    background-color: #1c1d25;
+    height: 12vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+.logo {
+    height: 70px;
+    margin: 30px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    color: black;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #F64C72;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #99738E;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.para-link{
+    color: mediumblue;
+}
+
+#contact-me h2{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-image{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        background-color: #2b2c38;
+    }
+}
