@@ -79,7 +79,7 @@ p {
     padding: 80px;
 }
 .button {
-    width: 200px;
+    width: 220px;
     height: 55px;
     border-radius: 30px;
     background-color: #F64C72;
@@ -112,10 +112,28 @@ a {
     color: white;
 }
 
+.fav-football{
+    color: red;
+    font-weight: bold;
+}
+.fav-football:hover{
+    text-decoration: underline;
+}
+.siege{
+    color: midnightblue;
+    font-weight: bold;
+}
+.siege:hover{
+    text-decoration: underline;
+}
 .footer-image{
     height: 30px;
     width: 30px;
     margin-right: 5px;
+}
+.header-interest .para-interests{
+    display: block;
+    background-color:#1c1d25;
 }
 @media only screen and (max-width: 1000px) {
     nav {
